@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Event Registration</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #af0d0d;
+            color: white;
+            padding-top: 40px;
+        }
+
+        h1 {
+            color: #0ef777;
+        }
+
+        form {
+            background-color: white;
+            color: black;
+            width: 350px;
+            margin: 30px auto;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        input, select {
+            width: 90%;
+            padding: 10px;
+            margin: 8px;
+        }
+
+        button {
+            padding: 10px 25px;
+            background-color: #0ef777;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Student Event Registration</h1>
+    <h2>Register for College Events</h2>
+
+    <form>
+        <input type="text" placeholder="Student Name" required>
+
+        <input type="text" placeholder="Register Number" required>
+
+        <input type="email" placeholder="Email" required>
+
+        <select required>
+            <option value="">Select Event</option>
+            <option>Technical Symposium</option>
+            <option>Cultural Event</option>
+            <option>Sports Event</option>
+            <option>Hackathon</option>
+        </select>
+
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
